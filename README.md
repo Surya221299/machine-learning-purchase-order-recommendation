@@ -120,5 +120,7 @@ This project is aligned with academic studies on:
 
 ## Author
 Surya Ramadhani
+
 Apple Developer Academy Graduate.
+
 Former Part Inventory Officer.
