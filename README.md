@@ -14,11 +14,12 @@ This project investigates how different machine learning models learn from sales
 
 ## Dataset Overview
 The dataset consists of 50 motorcycle spare parts, where each row represents one item with the following features:
+<img width="864" height="269" alt="dataset" src="https://github.com/user-attachments/assets/391e5c6d-00f9-4650-82fa-f0dc7a67bc11" />
 
 ## Methodology
 1. Rule-Based Baseline
 
-Uses a 3-month moving average of historical sales
+- Uses a 3-month moving average of historical sales
 
 2. Machine Learning Models
 
