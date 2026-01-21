@@ -37,6 +37,7 @@ The target variable for both models is the baseline PO quantity, used as a proxy
 
 ## Rule-Based Baseline (Moving Average)
 A rule-based baseline is used as a reference for PO recommendations, calculated using the average sales of the last three months minus current stock.
+
 <img width="688" height="268" alt="rule_based" src="https://github.com/user-attachments/assets/4983cab4-a5c8-4220-b134-f1ab01fbf2a0" />
 
 ## Exploratory Data Analysis
@@ -49,12 +50,16 @@ This scatter plot illustrates the relationship between current inventory and his
 ## Machine Learning Models
 ### Linear Regression
 Linear Regression is used for its simplicity and high interpretability.
+
 <img width="465" height="457" alt="linear_regression_coefficient" src="https://github.com/user-attachments/assets/624f0747-2434-4a78-8cb1-2931bdbfc621" />
+
 The coefficients indicate the direction and magnitude of each feature’s influence on PO recommendations.
 
 ### Random Forest Regressor
 Random Forest is applied to capture non-linear relationships and feature interactions.
+
 <img width="450" height="451" alt="random_forest_feature_importance" src="https://github.com/user-attachments/assets/e5410c22-b366-459d-9e8f-3c0a92cf1b97" />
+
 Feature importance highlights which variables contribute most to the model’s decision-making process.
 
 ## Model Evaluation
